@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 body {
   background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+body .box-qr-code {
+  background-color: hsl(0, 0%, 100%);
   font-family: "Outfit", sans-serif;
+  width: 220px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+body .box-qr-code .div-img-qr-code .img-qr-code {
+  width: 200px;
+  height: auto;
+}
+body .box-qr-code .div-title .title {
+  font-size: 25px;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+body .box-qr-code .div-txt .txt {
+  font-size: 13px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
 }/*# sourceMappingURL=styles.css.map */

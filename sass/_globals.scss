@@ -9,5 +9,44 @@ $font: 'Outfit', sans-serif;
 
 body {
     background-color: $LightGray;
-    font-family: $font;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    .box-qr-code {
+        background-color: $white;
+        font-family: $font;
+        width: 220px;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+
+        .div-img-qr-code {
+
+            .img-qr-code {
+                width: 200px;
+                height: auto;
+            }
+        }
+
+        .div-title {
+
+            .title {
+                font-size: 25px;
+                color: $DarkBlue;
+                font-weight: 700;
+            }
+        }
+
+        .div-txt {
+            .txt {
+                font-size: 13px;
+                color: $GrayishBlue;
+                font-weight: 400;
+            }
+        }
+    }
 }
