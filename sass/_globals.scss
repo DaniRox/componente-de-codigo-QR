@@ -6,3 +6,8 @@ $GrayishBlue: hsl(220, 15%, 55%);
 $DarkBlue: hsl(218, 44%, 22%);
 
 $font: 'Outfit', sans-serif;
+
+body {
+    background-color: $LightGray;
+    font-family: $font;
+}
