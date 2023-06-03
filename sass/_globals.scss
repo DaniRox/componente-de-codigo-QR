@@ -74,12 +74,17 @@ body {
             justify-content: center;
 
             p {
+                color: $GrayishBlue;
                 margin: 5px;
 
                 a {
+                    color: $GrayishBlue;
+                    text-decoration: none;
+                
 
                     .logo-danirox {
-                        width: 60px;
+                        margin-left: 3px;
+                        width: 70px;
                     }
                 }
             }

@@ -57,8 +57,14 @@ body footer .attribution {
   justify-content: center;
 }
 body footer .attribution p {
+  color: hsl(220, 15%, 55%);
   margin: 5px;
 }
+body footer .attribution p a {
+  color: hsl(220, 15%, 55%);
+  text-decoration: none;
+}
 body footer .attribution p a .logo-danirox {
-  width: 60px;
+  margin-left: 3px;
+  width: 70px;
 }/*# sourceMappingURL=styles.css.map */
