@@ -98,4 +98,9 @@ body footer .attribution {
   body main {
     margin-top: 5%;
   }
+}
+@media screen and (min-width: 900px) {
+  body main {
+    margin-top: 2%;
+  }
 }/*# sourceMappingURL=styles.css.map */
