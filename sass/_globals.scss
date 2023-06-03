@@ -9,6 +9,7 @@ $font: 'Outfit', sans-serif;
 
 body {
     background-color: $LightGray;
+    font-family: $font;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -18,7 +19,6 @@ body {
 
     .box-qr-code {
         background-color: $white;
-        font-family: $font;
         width: 320px;
         height: 520px;
         margin: 80px 0 100px 0;
@@ -60,6 +60,27 @@ body {
                 font-weight: 400;
                 text-align: center;
                 margin: 0;
+            }
+        }
+    }
+
+    footer {
+
+        .attribution {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            p {
+                margin: 5px;
+
+                a {
+
+                    .logo-danirox {
+                        width: 60px;
+                    }
+                }
             }
         }
     }

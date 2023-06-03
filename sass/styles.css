@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 body {
   background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -10,7 +11,6 @@ body {
 }
 body .box-qr-code {
   background-color: hsl(0, 0%, 100%);
-  font-family: "Outfit", sans-serif;
   width: 320px;
   height: 520px;
   margin: 80px 0 100px 0;
@@ -48,4 +48,16 @@ body .box-qr-code .div-txt .txt {
   font-weight: 400;
   text-align: center;
   margin: 0;
+}
+body footer .attribution {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body footer .attribution p {
+  margin: 5px;
+}
+body footer .attribution p a .logo-danirox {
+  width: 60px;
 }/*# sourceMappingURL=styles.css.map */
