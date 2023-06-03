@@ -55,6 +55,7 @@ body footer .attribution {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 10px;
 }
 body footer .attribution p {
   color: hsl(220, 15%, 55%);
