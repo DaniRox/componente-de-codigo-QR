@@ -9,24 +9,38 @@ body {
 body .box-qr-code {
   background-color: hsl(0, 0%, 100%);
   font-family: "Outfit", sans-serif;
-  width: 220px;
-  height: 380px;
+  width: 300px;
+  height: 460px;
+  margin: 70px 0;
+  border-radius: 16px;
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
 }
+body .box-qr-code .div-img-qr-code {
+  margin-top: 17px;
+}
 body .box-qr-code .div-img-qr-code .img-qr-code {
-  width: 200px;
+  width: 265px;
   height: auto;
+  border-radius: 12px;
+}
+body .box-qr-code .div-title {
+  margin: 25px;
 }
 body .box-qr-code .div-title .title {
-  font-size: 25px;
+  font-size: 22px;
   color: hsl(218, 44%, 22%);
   font-weight: 700;
+  text-align: center;
+}
+body .box-qr-code .div-txt {
+  margin: 4px 25px;
 }
 body .box-qr-code .div-txt .txt {
-  font-size: 13px;
+  font-size: 15px;
   color: hsl(220, 15%, 55%);
   font-weight: 400;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
