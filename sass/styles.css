@@ -60,10 +60,14 @@ body footer .attribution {
 body footer .attribution p {
   color: hsl(220, 15%, 55%);
   margin: 5px;
+  font-size: 16px;
 }
 body footer .attribution p a {
-  color: hsl(220, 15%, 55%);
+  color: hsl(218, 44%, 22%);
+  margin-left: 3px;
   text-decoration: none;
+  font-weight: 22px;
+  font-weight: 700;
 }
 body footer .attribution p a .logo-danirox {
   margin-left: 3px;

@@ -77,11 +77,15 @@ body {
             p {
                 color: $GrayishBlue;
                 margin: 5px;
+                font-size: 16px;
+
 
                 a {
-                    color: $GrayishBlue;
+                    color: $DarkBlue;
+                    margin-left: 3px;
                     text-decoration: none;
-                
+                    font-weight: 22px;
+                    font-weight: 700;
 
                     .logo-danirox {
                         margin-left: 3px;
