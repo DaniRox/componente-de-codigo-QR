@@ -13,7 +13,7 @@ body .box-qr-code {
   background-color: hsl(0, 0%, 100%);
   width: 320px;
   height: 520px;
-  margin: 80px 0 100px 0;
+  margin: 80px 0 160px 0;
   border-radius: 18px;
   display: flex;
   flex-direction: column;
