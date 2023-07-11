@@ -50,6 +50,5 @@ footer {
 
 ## Author
 
-- Website - [Daniela Roxana Escobar](https://www.linkedin.com/in/daniroxescobar/)
+- Website - [DaniRox](https://www.linkedin.com/in/daniroxescobar/)
 - Frontend Mentor - [@DaniRox](https://www.frontendmentor.io/profile/DaniRox)
-- Twitter - [@daniroxescobar](https://twitter.com/daniroxescobar)
